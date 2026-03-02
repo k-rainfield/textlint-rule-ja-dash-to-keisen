@@ -1,6 +1,6 @@
 {
   "name": "textlint-rule-ja-dash-to-keisen",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "日本語小説のダッシュを罫線に統一するtextlintルール",
   "keywords": [
     "textlintrule"
