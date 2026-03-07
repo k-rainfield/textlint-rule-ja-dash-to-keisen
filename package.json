@@ -1,0 +1,24 @@
+{
+  "name": "textlint-rule-ja-dash-to-keisen",
+  "version": "0.1.0",
+  "description": "日本語小説のダッシュを罫線に統一するtextlintルール",
+  "keywords": [
+    "textlintrule"
+  ],
+  "author": "k-rainfield",
+  "main": "lib/index.js",
+  "files": [
+    "lib/",
+    "src/"
+  ],
+  "scripts": {
+    "test": "textlint-scripts test",
+    "build": "textlint-scripts build",
+    "prepublish": "npm run --if-present build"
+  },
+  "devDependencies": {
+    "@textlint/types": "^15.2.3",
+    "textlint-scripts": "^15.2.3",
+    "textlint-tester": "^15.2.3"
+  }
+}
